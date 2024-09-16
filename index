@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen 360 en A-Frame</title>
+    <!-- A-Frame CDN -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <!-- Escena de A-Frame -->
+    <a-scene>
+        <!-- Imagen 360 como textura en el cielo -->
+        <a-sky src="https://cdn.glitch.global/4a8db21e-5acb-46ea-a488-10fb7790843e/blank_state.jpg?v=1726444253349" rotation="0 -90 0"></a-sky>
+
+        <!-- Controlador de cámara con movimiento -->
+        <a-entity camera look-controls position="0 1.6 0"></a-entity>
+    </a-scene>
+</body>
+</html>
